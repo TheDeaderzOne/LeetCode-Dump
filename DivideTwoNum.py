@@ -43,5 +43,5 @@ class Solution:
         if quotient > 2**31 - 1:
             quotient = 2**31 - 1
         if quotient < 0 - (2**31):
-            quorient = 0 - (2**31)
+            quotient = 0 - (2**31)
         return quotient
